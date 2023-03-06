@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+main{
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.header{
+    font-weight: 100;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.4;
+}
+
+.partone{
+    
+}
+
+.parttwo{
+   
+}
+
+.topic{
+    font-family: 'Fraunces', serif;
+    font-weight:bolder ;
+}
+
+.descri{
+    font-weight:200;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.4;
+}
+
+.two{
+    font-weight: bolder;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+.three{
+    font-weight: lighter;
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.imgone{ 
+    border-radius: 1rem 0 0 1rem;
+}
+
+.imgtwo{
+    
+}
+
+button {
+    width: auto;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    background-color: hsl(158, 36%, 37%);
+}
