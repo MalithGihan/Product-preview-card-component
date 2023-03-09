@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@100&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,71 +9,110 @@
 }
 
 body{
-    background-color: hsl(30, 38%, 92%);
-    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);  
 }
 
 main{
+    padding: 0;
     background-color: white;
     border-radius: 1rem;
+    display:flex;
+    width: 35vw;
+    height: 50vh;
 }
+
+.part-two{
+    margin: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    height: 50vh;
+    display:flow-root;
+    flex-direction: column;
+    justify-content: center;   
+  }
 
 .header{
-    font-weight: 100;
+    margin:0;
+    padding:2rem 0 2rem 0;
+    font-weight:800;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    opacity: 0.4;
+    opacity: 0.7;
+    letter-spacing: 10px;
 }
 
-.partone{
+
+.topic{
+    padding:0rem 0 2rem 0;
+    font-size: 20px;
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight:bolder;
     
 }
 
-.parttwo{
-   
-}
-
-.topic{
-    font-family: 'Fraunces', serif;
-    font-weight:bolder ;
-}
-
 .descri{
-    font-weight:200;
-    font-size: 15px;
+    padding:0rem 0 2rem 0;
+    font-weight:800;
+    font-size: 18px;
+    line-height:2rem;
+    color: black;
     font-family: 'Montserrat', sans-serif;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
-.two{
+.dis-price{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
 }
 
-.three{
-    font-weight: lighter;
-    font-size: 13px;
+.normal-price{
+    padding:0.5rem 1rem 0rem 2rem;
+    font-weight:bold;
+    font-size: 15px;
     text-decoration: line-through;
-    opacity: 0.4;
+    opacity: 0.5;
     font-family: 'Montserrat', sans-serif;
 }
 
 
-.imgone{ 
+img.img-1{ 
+    height: 50vh;
     border-radius: 1rem 0 0 1rem;
 }
 
-.imgtwo{
-    
+.price{
+    display: flex;
 }
 
 button {
-    width: auto;
+    margin: 3rem 0 0 0;
+    padding:1rem 5.3rem 1rem 5.3rem;
+    display: flex;
     font-family: 'Outfit', sans-serif;
     color: white;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: hsl(158, 36%, 37%);
+}
+
+img.img-2{
+    margin: 0;
+    padding:0;
+}
+
+.add{
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
 }
